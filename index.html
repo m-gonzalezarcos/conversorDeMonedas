@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío Conversor de Monedas</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="conversor">
+        <h1>Conversor de Monedas Nacional</h1>
+        <article class="card">
+            <h3>Pesos CLP</h3>
+            <input type="text" id="ingresarValores" placeholder="Pesos CLP">
+            <h4>Moneda A convertir:</h3>
+            <select id="moneda">
+                <option value="dolar">Dolar</option>
+                <option value="euro">Euro</option>
+            </select>
+            <button type="button" id="btn">Buscar</button>
+            <p id="resultado"></p>
+        </article>
+        <div id="chart" class="grafica"></id>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
